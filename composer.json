@@ -1,6 +1,6 @@
 {
-    "name": "oddslick/app",
-    "description":"New structure for oddsclick",
+    "name": "mvc/app",
+    "description":"New structure for mvc pattern",
     "minimum-stability": "stable",
     "license": "MIT",
     "type": "project",
@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "OddsClick\\":"src"
+            "MVC\\":"src"
         }
     }
 }
