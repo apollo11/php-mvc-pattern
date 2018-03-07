@@ -1,0 +1,22 @@
+{
+    "name": "oddslick/app",
+    "description":"New structure for oddsclick",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Apollo Malapote",
+            "email": "apollomalapote@gmail.com"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "^1.23",
+        "twig/twig": "^2.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "OddsClick\\":"src"
+        }
+    }
+}
